@@ -1,0 +1,7 @@
+{
+  "name": "postuser",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

@@ -1,0 +1,40 @@
+// 文档教程: https://uniapp.dcloud.net.cn/uniCloud/schema
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"nickName": {
+			"description": ""
+		},
+		"introduction": {
+			"description": ""
+		},
+		"backgroundImage": {
+			"description": ""
+		},
+		"headImgUrl": {
+			"description": ""
+		},
+		"edit_nickName": {
+			"description": ""
+		},
+		"edit_avatarUrl": {
+			"description": ""
+		},
+		"toenroll_info": {
+			"description": ""
+		},
+		"edit_backgroundImage": {
+			"description": ""
+		}
+	}
+}

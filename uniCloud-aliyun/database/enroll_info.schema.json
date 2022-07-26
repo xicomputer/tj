@@ -1,0 +1,62 @@
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"outTradeNo": {
+			"description": "订单号"
+		},
+		"payDate": {
+			"description": "支付时间"
+		},
+		"openid": {
+			"description": ""
+		},
+		"dataList": {
+			"description": "活动信息"
+		},
+		"info": {
+			"description": "用户填写信息"
+		},
+		"price": {
+			"description": "价格"
+		},
+		"state": {
+			"description": "状态"
+		},
+		"title": {
+			"description": ""
+		},
+		"limit_num": {
+			"description": ""
+		},
+		"ticket_describe": {
+			"description": ""
+		},
+		"whetherItIsDistributed": {
+			"description": ""
+		},
+		"distributionAmount": {
+			"description": ""
+		},
+		"sharedBy": {
+			"description": ""
+		},
+		"register_date": {
+			"bsonType": "timestamp",
+			"description": "创建时间",
+			"forceDefaultValue": {
+				"$env": "now"
+			},
+			"title": "创建时间"
+		}
+	}
+}

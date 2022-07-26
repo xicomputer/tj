@@ -1,0 +1,135 @@
+// 文档教程: https://uniapp.dcloud.net.cn/uniCloud/schema
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"imageValue": {
+			"description": "封面"
+		},
+		"name": {
+			"description": "标题"
+		},
+		"type": {
+			"description": "类型"
+		},
+		"dataTimeStart": {
+			"description": "活动开始时间"
+		},
+		"dataTimeEnd": {
+			"description": "活动结束时间"
+		},
+		"activity_type": {
+			"description": "活动类型"
+		},
+		"enrollTimeStart": {
+			"description": "报名开始时间"
+		},
+		"enrollTimeEnd": {
+			"description": "报名结束时间"
+		},
+		"headerChecked": {
+			"description": "是否显示头"
+		},
+		"bodyChecked": {
+			"description": "是否显示body"
+		},
+		"bottomChecked": {
+			"description": "是否显示bottom"
+		},
+		"enrollSet": {
+			"description": "报名设置"
+		},
+		"actionSheetqudao": {
+			"description": "渠道，线上"
+		},
+		"addresstextarea": {
+			"description": "活动地址，线上"
+		},
+		"qrCodeImgValue": {
+			"description": "报名设置"
+		},
+		"cause": {
+			"description": "退款设置"
+		},
+		"activity_form": {
+			"description": "活动形式"
+		},
+		"ticketList": {
+			"description": "门票"
+		},
+		"region": {
+			"description": "地址"
+		},
+		"detailedAddress": {
+			"description": "详细地址"
+		},
+		"localtion": {
+			"description": "定位名字"
+		},
+		"latitude": {
+			"description": "坐标系"
+		},
+		"longitude": {
+			"description": "坐标系"
+		},
+		"describe_list": {
+			"description": "详情描述"
+		},
+		"activity_set_list": {
+			"description": "报名设置"
+		},
+		"service_call": {
+			"description": "联系方式"
+		},
+		"is_exposure": {
+			"description": "推荐官可用"
+		},
+		"isSubmit": {
+			"description": "是否发布"
+		},
+		"describe": {
+			"description": "describe"
+		},
+		"state": {
+			"description": "状态,待开始，进行中，已结束"
+		},
+		"supplierInfo": {
+			"description": "供应商信息"
+		},
+		"originatorName": {
+			"description": "发起人姓名"
+		},
+		"originatorPhone": {
+			"description": "发起人手机"
+		},
+		"originatorWechar": {
+			"description": "发起人微信群"
+		},
+		"supplierId": {
+			"description": "供应商id"
+		},
+		"userinfo": {
+			"description": "用户信息"
+		},
+		"refund_switch": {
+			"description": ""
+		},
+		"register_date": {
+			"bsonType": "timestamp",
+			"description": "创建时间",
+			"forceDefaultValue": {
+				"$env": "now"
+			},
+			"title": "创建时间"
+		}
+	}
+}

@@ -1,0 +1,41 @@
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"info": {
+			"description": "信息"
+		},
+		"price": {
+			"description": "金额"
+		},
+		"outTradeNo": {
+			"description": "订单号"
+		},
+		"payDate": {
+			"description": "支付时间"
+		},
+		"openid": {
+			"description": "openid"
+		},
+		"state": {
+			"description": "状态"
+		},
+		"register_date": {
+			"bsonType": "timestamp",
+			"description": "创建时间",
+			"forceDefaultValue": {
+				"$env": "now"
+			},
+			"title": "创建时间"
+		}
+	}
+}

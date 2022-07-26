@@ -1,0 +1,7 @@
+{
+  "name": "postStock",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

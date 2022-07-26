@@ -1,0 +1,9 @@
+{
+  "name": "getqrCode",
+  "dependencies": {
+    "mp-cloud-openapi": "file:../common/mp-cloud-openapi"
+  },
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}
